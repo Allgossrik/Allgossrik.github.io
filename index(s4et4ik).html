@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>ЛП, вар3 счетчик</title>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+	<link href="assets/css/animate.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript">
+		$(window).scroll(function(e){parallax();});
+		function parallax(){
+			var scrolled = $(window).scrollTop();
+			$(‘.bgparallax’).css(‘top’,-(scrolled*0.2)+’px’);
+		}
+	</script>
+	
+</head>
+
+<body>
+	<div class="bgparallax"></div>
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="#">Fkakwef</a> </div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="#contact">Контакт</a></li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+	<script src="assets/js/countdown.js"></script>
+	Html
+	<div class="jumbotron">
+		<div class="container">
+			<!– вступительный блок ============================== –>
+			<div class="row">
+				<div class="col-sm-6 col-md-7 col-lg-6">
+					<h1>Время не ждет</h1>
+					<h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</h4> 
+				</div>
+				<div class="col-sm-6 col-md-5 col-lg-offset-1">
+					<div class="headform">
+						<ul class="headform-list">
+							<li>
+								<p><i class="fa fa-check"></i> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+							</li>
+							<li>
+								<p><i class="fa fa-check"></i> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+							</li>
+						</ul>
+						<script type="application/javascript">
+							var myCountdown1 = new Countdown({
+								time: 86400 * 3, // 86400 seconds = 1 day
+								width: 300
+								, height: 60
+								, rangeHi: "day"
+								, style: "flip" // <- no comma on last item!
+							});
+						</script>
+					</div>
+					<input type="submit" name="submit" value="Поехали!"  class="btn-danger">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container"> 
+		<main role="main">
+			<div class="row"></div>
+				<section class="benefits">
+					<h2 class ="text-center">Преимущества</h2>
+					<div class = "col-md-4 text-center Chevron double right">
+						<h2 class="glyphicon glyphicon-forward"></h2>
+						<h4>Быстро</h4>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+					</div> <div class = "col-md-4 text-center">
+						<h2 class="glyphicon glyphicon-ok-circle"></h2>
+						<h4>Надежно</h4>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+					</div> <div class = "col-md-4 text-center">
+						<h2 class="glyphicon glyphicon-shopping-cart"></h2>
+						<h4>Выгодно</h4>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+					</div> <div class = "col-md-4 text-center">
+						<h2 class="glyphicon glyphicon-wrench"></h2>
+						<h4>Технично</h4>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+					</div> <div class = "col-md-4 text-center">
+						<h2 class="glyphicon glyphicon-thumbs-up"></h2>
+						<h4>Надежно</h4>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+					</div> <div class = "col-md-4 text-center">
+						<h2 class="glyphicon glyphicon-chevron-up"></h2>
+						<h4>Выгодно</h4>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+					</div> <div class = "col-md-4 text-center">
+						<h2 class="glyphicon glyphicon-tasks"></h2>
+						<h4>Технично</h4>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing </p>
+					</div> <div class = "col-md-4 text-center">
+						<h2 class="glyphicon glyphicon-floppy-saved"></h2>
+						<h4>Надежно</h4>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing </p>
+					</div> <div class = "col-md-4 text-center">
+						<h2 class="glyphicon glyphicon-credit-card"></h2>
+						<h4>Выгодно</h4>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing </p>
+					</div> 
+				</section>
+			<div class="row">
+				<section class="tarifs"> </div>
+					<div class="row"></div>
+					<div class="text-center">
+						<h2>Тарифные планы</h2>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+					</div>
+					<div class = "col-md-4 text-center pricing_item">
+						<h3>Тариф №1</h3>
+						<h4 class="price"><span class="currency">$</span>10</h4>
+						<p class="sentence">в месяц/с человека</p>
+						<ul>
+							<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</li>
+							<li>Lorem ipsum dolor</li>
+							<li><strong>10 Lorem</strong> ipsum</li>
+						</ul>
+						<button>Заказать</button>
+					</div><div class = "col-md-4 text-center pricing_item">
+						<h3>Тариф №2</h3>
+						<h4 class="price"><span class="currency">$</span>20</h4>
+						<p class="sentence">в месяц/с человека</p>
+						<ul>
+							<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</li>
+							<li>Lorem ipsum dolor</li>
+							<li><strong>10 Lorem</strong> ipsum</li>
+						</ul>
+						<button>Заказать</button>
+					</div><div class = "col-md-4 text-center pricing_item">
+						<h3>Тариф №3</h3>
+						<h4 class="price"><span class="currency">$</span>30</h4>
+						<p class="sentence">в месяц/с человека</p>
+						<ul>
+							<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</li>
+							<li>Lorem ipsum dolor</li>
+							<li><strong>10 Lorem</strong> ipsum</li>
+						</ul>
+						<button>Заказать</button>
+					</div>					
+				</section>
+			
+			<div class="row" ></div>
+			<section class="testimonials">
+				<div class="text-center">
+					<h2>Отзывы клиентов</h2>
+				</div><div class = "col-md-4 text-center">
+					<blockquote> “Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo." </blockquote>
+					<div class="avatar"> <img src="assets\imga\a.jpg" />
+						<p>Имя клиента.</p>
+					</div>		
+				</div><div class = "col-md-4 text-center">
+					<blockquote> “Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo." </blockquote>
+					<div class="avatar"> <img src="assets\imga\s.jpg" />
+						<p>Имя клиента.</p>
+					</div>
+				</div><div class = "col-md-4 text-center">
+					<blockquote> “Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo." </blockquote>
+					<div class="avatar"> <img src="assets\imga\d.jpg" />
+						<p>Имя клиента.</p>
+					</div>
+				</div>
+			</section>
+			<div class="row"></div>
+			<div class = " text-center">
+				<section class="action"><h2>Выгода при заказе сегодня</h2>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat:</p>
+					<button>Заказать сейчас!</button>
+				</section>
+			</div>
+		</main>	
+	</div>
+	
+    <!-- Bootstrap JS размещен внизу для ускорения загрузки -->
+    <script src="assets/js/bootstrap.js"></script>
+	<script src="assets/js/scroll.js"></script>
+	</div>
+</body>
+
+</html>
