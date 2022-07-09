@@ -1,1 +1,0 @@
-# Allgossrik.github.io
